@@ -1,0 +1,56 @@
+/* css project */
+.mg-form{
+    margin-bottom: 10px;
+}
+.bmg-btn{
+    margin-top: 20px;
+}
+.validate{
+    color: red;
+    
+}
+.error{
+    color: red;
+    font-size: 90%;
+    font-style: italic;
+}
+.search-label {
+    color: #d58512; /* Màu cam */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Căn chỉnh khoảng cách của form tìm kiếm */
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Chỉnh kích thước nhỏ gọn hơn cho input và button */
+.search-form input.form-control {
+    width: 200px; /* Chiều rộng của ô input */
+    margin-right: 5px; /* Khoảng cách giữa input và button */
+}
+.btn {
+    border-radius: 0.5rem;
+}
+
+.search-label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.search-form .form-control {
+    width: auto; /* Adjusts input width */
+}
